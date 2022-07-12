@@ -27,7 +27,9 @@
     padding: 40px;
     color: white;
     text-align: center;
-    background: #000000;
+    background: url(imagenes/bannersluchino.png)no-repeat;
+    background-size: cover;
+    height: 250px;
   }
 
   nav ul {
@@ -201,3 +203,4 @@ footer {
 .bi-instagram:hover {
   color: gray;
 }
+
