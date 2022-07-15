@@ -1,0 +1,26 @@
+$color-texto: #fff;
+
+nav {
+    ul {
+      list-style: none;
+      background: #d9c0aa;
+      text-align: center;
+      overflow: hidden;
+      li {
+        display: inline-block;
+        padding: 20px;
+        transition: all ease-in-out 250ms;
+
+        &:hover {
+          
+          background: hsl(195, 7%, 32%);
+      
+        } 
+        a {
+          color: $color-texto;
+          text-decoration:none
+        }
+        
+         }
+    }
+  }
