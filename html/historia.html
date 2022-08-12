@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Luchinos</title>
+
+  <link rel="stylesheet" href="../css/stylo.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+</script>
+  <meta name="description" content="Venta mayorista y minorista. Negocio marroquinería y accesorios con el objetivo de brindarles a nuestros clientes la mejor calidad a un buen precio">
+  <meta name="keywords" content="quienes somos, marroquineria, mayorista, minorista, cordoba, argentina">
+
+<body>
+
+  
+  <!--==================== RUBRO ===============-->
+  <header>
+    <h1> MARROQUINERIA</h1>
+  </header>
+
+  <!--==================== BARRA DE NAVEGACION ===============-->
+    <nav>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="fotos.html">Fotos</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="historia.html">Historia</a></li>
+        <li><a href="contacto.html">contacto</a></li>
+      </ul>
+      <div class="hide">
+        <i class="fa fa-bars" aria-hidden="true"></i> Menu
+      </div>
+    </nav>
+  
+
+  <!-- CARRUSEL -->
+
+  <div class="container-fluid">
+    <div class="row row-carrusel">
+      <div class="col-12 col-sm-12">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active container-img" data-bs-interval="10000">
+              <img src="../imagenes/fondo.jpg" class="d-block w-100 img-carousel" alt="...">
+            </div>
+            <div class="carousel-item container-img" data-bs-interval="2000">
+              <img src="../imagenes/fondo4.jpg" class="d-block w-100 img-carousel" alt="...">
+            </div>
+            <div class="carousel-item container-img">
+              <img src="../imagenes/fondo3.jpg" class="d-block w-100 img-carousel" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        <!--==================== FOOTER ===============-->
+
+        <footer>
+          <div class="footer-style">
+            <div class="footer-icons">
+              <a href="https://www.facebook.com/" target="_blank"> <i class="bi bi-facebook"></i></a>
+              <a href="https://wa.me/3516377004" target="_blank"><i class="bi bi-whatsapp"></i></a>
+              <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script>
+          $(".hide").on('click', function () {
+            $("nav ul").toggle('slow');
+          })
+        </script>
+
+</body>
+
+</html>
