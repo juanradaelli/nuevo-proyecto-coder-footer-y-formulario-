@@ -1,104 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Luchinos</title>
-  <link rel="stylesheet" href="stylo.css">
+  <link rel="stylesheet" href="./css/stylo.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <!-- JavaScript Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+  </script>
   <meta name="description" content="Productos de marroquineria personalizada, venta por mayor y menor">
-  <meta name="keywords" content="personalizado,virtual,marroquineria,articulos,mayorista,minorista,cordoba,argentina">
+  <meta name="keywords" content="personalizado, virtual, marroquineria, articulos, mayorista, minorista, cordoba, argentina">
 </head>
-<body>
 
+<body>
+   <!--==================== AUTOR ===============-->
 <header>
+  <h1> Juan Radaelli</h1>
 </header>
+
+   <!--==================== BARRA DE NAVEGACION ===============-->
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="./html/fotos.html">Fotos</a></li>
+        <li><a href="./html/servicios.html">Servicios</a></li>
+        <li><a href="./html/historia.html">Historia</a></li>
+        <li><a href="./html/contacto.html">contacto</a></li>
+      </ul>
+      <div class="hide">
+        <i class="fa fa-bars" aria-hidden="true"></i> Menu
+      </div>
+    </nav>
   
- <!--====================APLICANDO BARRA DE NAVEGACION AL INDEX===============-->
-<nav>
-   <ul>
-     <li><a href="index.html">Inicio</a></li>
-     <li><a href="fotos.html">Fotos</a></li>
-     <li><a href="servicios.html">Servicios</a></li>
-     <li><a href="historia.html">Historia</a></li>
-     <li><a href="contacto.html">contacto</a></li>
-  </ul>
-  <div class="hide">
-    <i class="fa fa-bars" aria-hidden="true"></i> Menu
-  </div>
-</nav>
-  
-<!--====================APLICANDO SCRIPT AL INDEX===============-->
-<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-  <script>
-    $(".hide").on('click', function() {
-      $("nav ul").toggle('slow');
-    })
-</script>
-  
-<!--====================APLICANDO BOOTSTRAP AL INDEX===============-->
+
+  <!--====================APLICANDO BOOTSTRAP ===============-->
   <section class="container-fluid mb-5 text-center">
-    <p class="text-center mt-3 mb-4 text-secondary fs-1">NOVEDADES</p>
+    <h1 class="text-center mt-3 mb-4 text-secondary fs-1">NOVEDADES</h1>
     <div class="row justify-content-around">
-      <div class="card" style="width: 18rem">
-        <img src="imagenes/DIA DEL NIÑO EN LUCHINOS.png" class="card-img-top" alt="..." />
-         <div class="card-body">
-          <h5 class="card-title">Dia del Niño En Luchinos</h5>
-           <p class="card-text">
+      <div class="card g-3" style="width: 18rem">
+        <img src="./imagenes/DIA DEL NIÑO EN LUCHINOS.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h2 class="card-title fs-5">Dia del Niño En Luchinos</h2>
+          <p class="card-text">
             Dia del niño en Luchinos
-Vamos a tener muchas sorpresas para los mas pequeños en el mes de agosto, el dia del niño en Luchinos te va a sorprender.
-           </p>
-      </div>
-      </div>
-      
-     <div class="card" style="width: 18rem">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.402071244088!2d-64.18096628554106!3d-31.403046581408546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943298719f3517c3%3A0x5952a7eca76861a5!2sFaustino%20Allende%20115%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1657550878345!5m2!1ses!2sar" width="265" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <div class="card-body">
-          <h5 class="card-title">Ubicacion De Nuestras Instalaciones</h5>
-          <p class="card-text">
-            Estamos en una excelente ubicacion para atender a nuestros clientes, nos encontramos  a 5 minutos del centro de cordoba en barrio cofico sobre la calle Faustino Allende al 115 , desde nuestras sucursal  realizamos
-            envios a todo el Territorio Argentino, podes consultar y cotizar los precios que necesites para compras por mayor y menor.
+            vamos a tener muchas sorpresas para los mas pequeños en el mes de agosto, el dia del niño en Luchinos te va
+            a sorprender.
           </p>
-          </div>
-          </div>
-      
-     <div class="card" style="width: 18rem">
-        <img src="imagenes/animales.png" class="card-img-top" alt="..." />
+        </div>
+      </div>
+
+      <div class="card g-3" style="width: 18rem">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.402071244088!2d-64.18096628554106!3d-31.403046581408546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943298719f3517c3%3A0x5952a7eca76861a5!2sFaustino%20Allende%20115%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1657550878345!5m2!1ses!2sar"
+          width="265" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
         <div class="card-body">
-          <h5 class="card-title">Lo importante que son ellos para nosotros</h5>
+          <h2 class="card-title fs-5">Ubicacion De Nuestras Instalaciones</h2>
           <p class="card-text">
-            En Luchinos te vamos a contar en profundidad cuales son los materiales que utilizamos para el diseño y fabricacion de nuestros articulos, nuestra forma de trabajar es directamente respentando a los animales y estamos totalmente en contra del maltrato de ellos en todo sentido.
+            Estamos en una excelente ubicacion para atender a nuestros clientes, nos encontramos a 5 minutos del centro
+            de la ciudad de cordoba, en barrio cofico sobre la calle Faustino Allende al 115, desde nuestras sucursal realizamos
+            envios a todo el Territorio Argentino, podes consultar y cotizar los precios que necesites para compras por
+            mayor y menor.
           </p>
-     </div>
-     </div>
-     </div>
+        </div>
+      </div>
+
+      <div class="card g-3" style="width: 18rem">
+        <img src="./imagenes/animales.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h2 class="card-title fs-5">Lo importante que son ellos para nosotros</h2>
+          <p class="card-text">
+            En Luchinos te vamos a contar como diseñamos y fabricamos cada articulo respetando de no utilizar ningun materiales
+            de origen animal, por un mundo mas sustentable y en armonia con el medio ambiente.
+           
+          </p>
+        </div>
+      </div>
+    </div>
   </section>
 
-    <div class="container-fluid">
+  <div class="container-fluid">
     <div class="row row-carrusel">
       <div class="col-12 col-sm-12">
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active container-img" data-bs-interval="10000">
-              <img src="imagenes/prueba1.jpg" class="d-block w-100 img-carousel" alt="...">
+              <img src="./imagenes/prueba1.jpg" class="d-block w-100 img-carousel" alt="...">
             </div>
             <div class="carousel-item container-img" data-bs-interval="2000">
-              <img src="imagenes/prueba7.jpg" class="d-block w-100 img-carousel" alt="...">
+              <img src="./imagenes/prueba7.jpg" class="d-block w-100 img-carousel" alt="...">
             </div>
             <div class="carousel-item container-img">
-              <img src="imagenes/prueba50.jpg" class="d-block w-100 img-carousel" alt="...">
+              <img src="./imagenes/prueba50.jpg" class="d-block w-100 img-carousel" alt="...">
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
@@ -106,38 +115,40 @@ Vamos a tener muchas sorpresas para los mas pequeños en el mes de agosto, el di
       </div>
     </div>
   </div>
-  
+
   <!-- seccion imagenes con bootstrap -->
+
   <section class="container-fluid mb-5 text-center">
     <p class="text-center mt-3 mb-4 text-secondary fs-1">Productos destacados</p>
     <div class="row justify-content-around">
-      <div class="card" style="width: 18rem">
+      <div class="card g-3" style="width: 18rem">
         <img src="imagenes/prueba8.jpg" class="card-img-top" alt="..." />
         <div class="card-body">
-          <h5 class="card-title">Monederos Cilindricos</h5>
+          <h2 class="card-title fs-2">Monederos Cilindricos</h2>
           <p class="card-text">
-            Nuestros nuevos Monederos sublimados cilindricos,ideales para guardar lo mas te guste.
+            Contamos con una gran variedad de tamaños y diseños en monederos.
           </p>
           <a href="#" class="btn btn-secondary">Comprar</a>
         </div>
       </div>
-      
-      <div class="card" style="width: 18rem">
+
+      <div class="card g-3" style="width: 18rem">
         <img src="imagenes/prueba34.jpg" class="card-img-top" alt="..." />
         <div class="card-body">
-          <h5 class="card-title">Cartucheras</h5>
+          <h2 class="card-title fs-5">Cartucheras</h2>
           <p class="card-text">
-            Nuestras nuevas cartucheras con distintas formas y diseños para la etapa escolar.
+            Fabricamos tres variedades de cartucheras para la epoca escolar, ademas de mochilas y otros articulos necesarios
+            para el colegio.
           </p>
           <a href="#" class="btn btn-secondary">Comprar</a>
         </div>
       </div>
-      <div class="card" style="width: 18rem">
+      <div class="card g-3" style="width: 18rem">
         <img src="imagenes/prueba44.jpg" class="card-img-top" alt="..." />
         <div class="card-body">
-          <h5 class="card-title">Celulares</h5>
+          <h2 class="card-title fs-2">Celulares</h2>
           <p class="card-text">
-            Fundas para celulares personalizadas
+            Podes personalizar con tu propio diseño tu funda de celular.
           </p>
           <a href="#" class="btn btn-secondary">Comprar</a>
         </div>
@@ -145,10 +156,7 @@ Vamos a tener muchas sorpresas para los mas pequeños en el mes de agosto, el di
     </div>
   </section>
 
-
-
-
-<!--     <div class="row">
+  <!--     <div class="row">
       
       <div class="col-12 col-sm-12"  style="background-color:#aaa">
         <h1>NOVEDADES</h1> 
@@ -174,19 +182,26 @@ Vamos a tener muchas sorpresas para los mas pequeños en el mes de agosto, el di
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button> -->
- 
-<!--====================APLICANDO FOOTER AL INDEX===============-->  
-<footer>
-  <div class="footer-style">
-    <div class="footer-icons">
-      <a href="https://www.facebook.com/" target="_blank"> <i class="bi bi-facebook"></i></a>
-      <a href="https://wa.me/3516377004" target="_blank"><i class="bi bi-whatsapp"></i></a>
-      <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+
+  <!--==================== FOOTER ===============-->
+  <footer>
+    <div class="footer-style">
+      <div class="footer-icons">
+        <a href="https://www.facebook.com/" target="_blank"> <i class="bi bi-facebook"></i></a>
+        <a href="https://wa.me/3516377004" target="_blank"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+      </div>
     </div>
-   </div>
-</footer>
-  
+  </footer>
+
+  <!--====================APLICANDO SCRIPT AL INDEX===============-->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script>
+    $(".hide").on('click', function () {
+      $("nav ul").toggle('slow');
+    })
+  </script>
+
 </body>
+
 </html>
-
-
